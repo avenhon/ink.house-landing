@@ -1,0 +1,45 @@
+.our-team {
+    margin-bottom: 70px;
+}
+
+.our-team-container {
+    display: flex;
+    align-items: end;
+}
+
+.our-team-img {
+    margin-right: 30px;
+}
+
+.our-team-img img {
+    object-fit: cover;
+}
+
+.our-team-text {
+    max-width: 635px;
+    margin-bottom: 40px;
+}
+
+.our-team-title {
+    color: var(--dark-color);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 110%;
+    margin-bottom: 20px;
+}
+
+.our-team-description {
+    color: var(--dark-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    margin-bottom: 20px;
+}
+
+.our-team-faces {
+    display: flex;
+}
+
+.our-team-face:not(:last-child) {
+    margin-right: 30px;
+}

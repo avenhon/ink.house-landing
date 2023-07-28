@@ -1,0 +1,101 @@
+.reproductions {
+    margin-bottom: 80px;
+}
+
+.reproductions-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.reproductions-title {
+    color: var(--dark-color);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.reproductions-country-list {
+    display: flex;
+    align-items: center
+}
+
+.reproductions-country-item {
+    font-size: 20px;
+    font-weight: 500;
+    background-color: var(--green-light-color);
+}
+
+.reproductions-country-item--active {
+    color: var(--white-color);
+    background-color: var(--green-color);
+}
+
+.reproductions-country-item {
+    border-radius: 20px;
+}
+
+.reproductions-country-item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.reproductions-country-item a {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.reproductions-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.reproductions-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--accent-ligher-color);
+}
+
+.reproductions-card-img {
+    margin-bottom: 20px;
+}
+
+.reproductions-card-img img {
+    object-fit: cover;
+}
+
+.reproductions-card-author {
+    color: var(--gray-color);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.reproductions-card-name {
+    color: var(--dark-color);
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.reproductions-card-type {
+    color: var(--dark-color);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.reproductions-card-price {
+    color: var(--accent-color);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.reproductions-card-button {
+    width: 100%;
+    padding: 21px 0;
+    margin-top: auto;
+}
