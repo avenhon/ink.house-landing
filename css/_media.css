@@ -212,17 +212,52 @@
         margin-bottom: 40px;
     }
 
+    .hero-button {
+        font-size: 18px;
+    }
+
+    .reproductions-country-list {
+        padding-bottom: 15px;
+    }
+
     .reproductions-products {
         grid-template-columns: 1fr;
     }
 
     .reproductions-card-img {
         align-self: center;
+        margin-bottom: 15px;
+    }
+
+    .reproductions-card-author {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .reproductions-card-name {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .reproductions-card-price {
+        margin-bottom: 10px;
+    }
+
+    .reproductions-card-type {
+        font-size: 16px;
     }
 
     .reproductions-country-list {
         overflow: auto;
         width: 100%;
+    }
+
+    .reproductions-country-item {
+        font-size: 18px;
+    }
+
+    .reproductions-card-button {
+        font-size: 16px;
     }
 
     .reproductions-country-item:not(:last-child) {
@@ -253,6 +288,24 @@
         width: 100%;
     }
 
+    .our-team-img {
+        margin-bottom: 30px;
+    }
+
+    .our-team-title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 110%;
+        margin-bottom: 20px;
+    }
+
+    .our-team-description {
+        max-width: 400px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 140%;
+    }
+
     .footer__left-column {
         flex-direction: column;
         align-items: start;
@@ -261,5 +314,21 @@
     .footer__center-column {
         flex-wrap: wrap;
         gap: 20px;
+    }
+
+    .tel-number {
+        font-size: 16px;
+    }
+
+    .workshop {
+        font-size: 16px;
+    }
+
+    .footer-link {
+        font-size: 16px;
+    }
+
+    .footer-header-link {
+        font-size: 18px;
     }
 }
