@@ -45,12 +45,18 @@
                 <div class="reproductions-navigation">
                     <h1 class="reproductions-title">Репродукции</h1>
                     <ul class="reproductions-country-list">
-                        <li class="reproductions-country-item reproductions-country-item--active"><a href="#">Франция</a></li>
-                        <li class="reproductions-country-item"><a href="#">Германия</a></li>
-                        <li class="reproductions-country-item"><a href="#">Англия</a></li>
+                        <li>
+                            <button class="reproductions-country-item reproductions-country-item--active" data-country="france">Франция</button>
+                        </li>
+                        <li>
+                            <button class="reproductions-country-item" data-country="germany">Германия</button>
+                        </li>
+                        <li>
+                            <button class="reproductions-country-item" data-country="england">Англия</button>
+                        </li>
                     </ul>
                 </div>
-                <div class="reproductions-products">
+                <div class="reproductions-products reproductions-products--active" id="reproductions-products-france">
                     <div class="reproductions-card">
                         <div class="reproductions-card-img">
                             <img src="img/reproduction-1.jpg" alt="reproduction 1">
@@ -120,6 +126,154 @@
                         <p class="reproductions-card-type">Цветная литография (40х60)</p>
                         <div class="reproductions-card-bottom">
                             <p class="reproductions-card-price">20 000 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="reproductions-products" id="reproductions-products-germany">
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-7.jpg" alt="reproduction 7">
+                        </div>
+                        <p class="reproductions-card-author">Курт Вернер</p>
+                        <h2 class="reproductions-card-name">Над городом</h2>
+                        <p class="reproductions-card-type">Цветная литография (40х60)</p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">16 000 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-8.jpg" alt="reproduction 8">
+                        </div>
+                        <p class="reproductions-card-author">Макс Рихтер</p>
+                        <h2 class="reproductions-card-name">Птенцы</h2>
+                        <p class="reproductions-card-type">Холст, масло (50х80) </p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">14 500 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-9.jpg" alt="reproduction 9">
+                        </div>
+                        <p class="reproductions-card-author">Мартин Майер</p>
+                        <h2 class="reproductions-card-name">Среди листьев</h2>
+                        <p class="reproductions-card-type">Цветная литография (40х60)</p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">20 000 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-10.jpg" alt="reproduction 10">
+                        </div>
+                        <p class="reproductions-card-author">Герман Беккер</p>
+                        <h2 class="reproductions-card-name">Яркая птица</h2>
+                        <p class="reproductions-card-type">Цветная литография (40х60) </p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">13 000 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-11.jpg" alt="reproduction 11">
+                        </div>
+                        <p class="reproductions-card-author">Вульф Бауэр</p>
+                        <h2 class="reproductions-card-name">Дятлы</h2>
+                        <p class="reproductions-card-type">Бумага, акрил (50х80)</p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">20 000 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-12.jpg" alt="reproduction 12">
+                        </div>
+                        <p class="reproductions-card-author">Вальтер Хартманн</p>
+                        <h2 class="reproductions-card-name">Большие воды</h2>
+                        <p class="reproductions-card-type">Бумага, акрил (50х80) </p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">23 000 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="reproductions-products" id="reproductions-products-england">
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-13.jpg" alt="reproduction 13">
+                        </div>
+                        <p class="reproductions-card-author">Пол Смит</p>
+                        <h2 class="reproductions-card-name">Дикий зверь</h2>
+                        <p class="reproductions-card-type">Акварель, бумага (50х80) </p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">19 500 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-14.jpg" alt="reproduction 14">
+                        </div>
+                        <p class="reproductions-card-author">Джон Уайт</p>
+                        <h2 class="reproductions-card-name">Скалистый берег</h2>
+                        <p class="reproductions-card-type">Цветная литография (40х60) </p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">17 500 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-15.jpg" alt="reproduction 15">
+                        </div>
+                        <p class="reproductions-card-author">Джим Уотсон</p>
+                        <h2 class="reproductions-card-name">Река и горы</h2>
+                        <p class="reproductions-card-type">Акварель, бумага (50х80) </p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">20 500 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-16.jpg" alt="reproduction 16">
+                        </div>
+                        <p class="reproductions-card-author">Юджин Зиллион</p>
+                        <h2 class="reproductions-card-name">Белый попугай</h2>
+                        <p class="reproductions-card-type">Цветная литография (40х60) </p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">15 500 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-17.jpg" alt="reproduction 17">
+                        </div>
+                        <p class="reproductions-card-author">Эрик Гиллман</p>
+                        <h2 class="reproductions-card-name">Ночная рыба</h2>
+                        <p class="reproductions-card-type">Бумага, акрил (50х80) </p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">12 500 руб</p>
+                            <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="reproductions-card">
+                        <div class="reproductions-card-img">
+                            <img src="img/reproduction-18.jpg" alt="reproduction 18">
+                        </div>
+                        <p class="reproductions-card-author">Альфред Барр</p>
+                        <h2 class="reproductions-card-name">Рыжий кот</h2>
+                        <p class="reproductions-card-type">Цветная литография (40х60) </p>
+                        <div class="reproductions-card-bottom">
+                            <p class="reproductions-card-price">21 000 руб</p>
                             <button class="reproductions-card-button theme-button btn-reset">В корзину</button>
                         </div>
                     </div>
@@ -200,5 +354,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -18,12 +18,16 @@
 
 .reproductions-country-list {
     display: flex;
-    align-items: center
+    align-items: center;
+    gap: 32px;
 }
 
 .reproductions-country-item {
+    padding: 10px 20px;
+    border: none;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
     background-color: var(--green-light-color);
 }
 
@@ -46,9 +50,13 @@
 }
 
 .reproductions-products {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+}
+
+.reproductions-products--active {
+    display: grid;
 }
 
 .reproductions-card {
